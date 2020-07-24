@@ -1,0 +1,1 @@
+/data/opt/brew/bin/c++   -O3  -rdynamic CMakeFiles/test.dir/apps/test.cpp.o  -o test 

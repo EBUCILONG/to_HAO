@@ -1,0 +1,4 @@
+/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/rebuild_cache.dir
+/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/edit_cache.dir
+/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/test_R.dir
+/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/test.dir

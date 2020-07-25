@@ -1,6 +1,6 @@
-The system is: Linux - 2.6.32-431.1.2.0.1.el6.x86_64 - x86_64
+The system is: Darwin - 17.7.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /data/opt/brew/bin/cc 
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/3.10.1/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/3.14.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /data/opt/brew/bin/c++ 
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
 Build flags: 
 Id flags:  
 
@@ -23,173 +23,165 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/3.10.1/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a286d/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_a286d.dir/build.make CMakeFiles/cmTC_a286d.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_a286d.dir/flags.make' has modification time 18 s in the future
-Building C object CMakeFiles/cmTC_a286d.dir/testCCompiler.c.o
-/data/opt/brew/bin/cc    -o CMakeFiles/cmTC_a286d.dir/testCCompiler.c.o   -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a286d
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a286d.dir/link.txt --verbose=1
-/data/opt/brew/bin/cc      -rdynamic CMakeFiles/cmTC_a286d.dir/testCCompiler.c.o  -o cmTC_a286d 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_18e5c/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_18e5c.dir/build.make CMakeFiles/cmTC_18e5c.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18e5c.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_18e5c.dir/testCCompiler.c.o   -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_18e5c
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18e5c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18e5c.dir/testCCompiler.c.o  -o cmTC_18e5c 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a9a89/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_a9a89.dir/build.make CMakeFiles/cmTC_a9a89.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_a9a89.dir/flags.make' has modification time 18 s in the future
-Building C object CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o
-/data/opt/brew/bin/cc    -o CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o   -c /data/opt/brew/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_a9a89
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9a89.dir/link.txt --verbose=1
-/data/opt/brew/bin/cc     -v -rdynamic CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o  -o cmTC_a9a89 
-Reading specs from /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/specs
-COLLECT_GCC=/data/opt/brew/bin/cc
-COLLECT_LTO_WRAPPER=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper
-Target: x86_64-unknown-linux-gnu
-Configured with: ../configure --prefix=/data/opt/brew/Cellar/gcc/5.2.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/data/opt/brew/opt/gmp --with-mpfr=/data/opt/brew/opt/mpfr --with-mpc=/data/opt/brew/opt/libmpc --with-isl=/data/opt/brew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.2.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib
+Run Build Command(s):/usr/local/bin/gmake cmTC_a09f9/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_a09f9.dir/build.make CMakeFiles/cmTC_a09f9.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl,-v -o CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCCompilerABI.c
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
-gcc version 5.2.0 (Homebrew gcc 5.2.0) 
-COMPILER_PATH=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/
-LIBRARY_PATH=/data/opt/lib/../lib64/:/usr/local/lib/../lib64/:/lib64/../lib64/:/usr/lib64/../lib64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/opt/lib/:/data/opt/brew/lib/:/usr/local/lib/:/lib64/:/usr/lib64/:/data/sydeng/lib/:/data/sydeng/lib/:/data/opt/jdk1.8.0_60/jre/lib/amd64/server/:/data/opt/hadoop-2.6.0/lib/native/:/data/opt/matlabr2016b//runtime/glnxa64/:/data/opt/matlabr2016b//bin/glnxa64/:/data/opt/matlabr2016b//sys/os/glnxa64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a9a89' '-mtune=generic' '-march=x86-64'
- /data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -rpath /data/opt/brew/lib -o cmTC_a9a89 /data/opt/lib/../lib64/crt1.o /data/opt/lib/../lib64/crti.o /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/data/opt/lib/../lib64 -L/usr/local/lib/../lib64 -L/lib64/../lib64 -L/usr/lib64/../lib64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/opt/lib -L/data/opt/brew/lib -L/usr/local/lib -L/lib64 -L/usr/lib64 -L/data/sydeng/lib -L/data/sydeng/lib -L/data/opt/jdk1.8.0_60/jre/lib/amd64/server -L/data/opt/hadoop-2.6.0/lib/native -L/data/opt/matlabr2016b//runtime/glnxa64 -L/data/opt/matlabr2016b//bin/glnxa64 -L/data/opt/matlabr2016b//sys/os/glnxa64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. -L/data/opt/brew/lib CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /data/opt/lib/../lib64/crtn.o
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -fdebug-compilation-dir /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_a09f9
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a09f9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o  -o cmTC_a09f9 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_a09f9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include;/Library/Developer/CommandLineTools/usr/include;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_a9a89/fast"]
-  ignore line: [gmake: Warning: File `Makefile' has modification time 18 s in the future]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a9a89.dir/build.make CMakeFiles/cmTC_a9a89.dir/build]
-  ignore line: [gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp']
-  ignore line: [gmake[1]: Warning: File `CMakeFiles/cmTC_a9a89.dir/flags.make' has modification time 18 s in the future]
-  ignore line: [Building C object CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/data/opt/brew/bin/cc    -o CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o   -c /data/opt/brew/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_a9a89]
-  ignore line: [/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9a89.dir/link.txt --verbose=1]
-  ignore line: [/data/opt/brew/bin/cc     -v -rdynamic CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o  -o cmTC_a9a89 ]
-  ignore line: [Reading specs from /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/specs]
-  ignore line: [COLLECT_GCC=/data/opt/brew/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper]
-  ignore line: [Target: x86_64-unknown-linux-gnu]
-  ignore line: [Configured with: ../configure --prefix=/data/opt/brew/Cellar/gcc/5.2.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/data/opt/brew/opt/gmp --with-mpfr=/data/opt/brew/opt/mpfr --with-mpc=/data/opt/brew/opt/libmpc --with-isl=/data/opt/brew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.2.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib]
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_a09f9/fast ]
+  ignore line: [gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_a09f9.dir/build.make CMakeFiles/cmTC_a09f9.dir/build]
+  ignore line: [gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl,-v -o CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.2.0 (Homebrew gcc 5.2.0) ]
-  ignore line: [COMPILER_PATH=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/data/opt/lib/../lib64/:/usr/local/lib/../lib64/:/lib64/../lib64/:/usr/lib64/../lib64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/opt/lib/:/data/opt/brew/lib/:/usr/local/lib/:/lib64/:/usr/lib64/:/data/sydeng/lib/:/data/sydeng/lib/:/data/opt/jdk1.8.0_60/jre/lib/amd64/server/:/data/opt/hadoop-2.6.0/lib/native/:/data/opt/matlabr2016b//runtime/glnxa64/:/data/opt/matlabr2016b//bin/glnxa64/:/data/opt/matlabr2016b//sys/os/glnxa64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a9a89' '-mtune=generic' '-march=x86-64']
-  link line: [ /data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -rpath /data/opt/brew/lib -o cmTC_a9a89 /data/opt/lib/../lib64/crt1.o /data/opt/lib/../lib64/crti.o /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/data/opt/lib/../lib64 -L/usr/local/lib/../lib64 -L/lib64/../lib64 -L/usr/lib64/../lib64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/opt/lib -L/data/opt/brew/lib -L/usr/local/lib -L/lib64 -L/usr/lib64 -L/data/sydeng/lib -L/data/sydeng/lib -L/data/opt/jdk1.8.0_60/jre/lib/amd64/server -L/data/opt/hadoop-2.6.0/lib/native -L/data/opt/matlabr2016b//runtime/glnxa64 -L/data/opt/matlabr2016b//bin/glnxa64 -L/data/opt/matlabr2016b//sys/os/glnxa64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. -L/data/opt/brew/lib CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /data/opt/lib/../lib64/crtn.o]
-    arg [/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-rpath] ==> ignore
-    arg [/data/opt/brew/lib] ==> ignore
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -fdebug-compilation-dir /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [ /System/Library/Frameworks (framework directory)]
+  ignore line: [ /Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_a09f9]
+  ignore line: [/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a09f9.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o  -o cmTC_a09f9 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_a09f9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a9a89] ==> ignore
-    arg [/data/opt/lib/../lib64/crt1.o] ==> ignore
-    arg [/data/opt/lib/../lib64/crti.o] ==> ignore
-    arg [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o] ==> ignore
-    arg [-L/data/opt/lib/../lib64] ==> dir [/data/opt/lib/../lib64]
-    arg [-L/usr/local/lib/../lib64] ==> dir [/usr/local/lib/../lib64]
-    arg [-L/lib64/../lib64] ==> dir [/lib64/../lib64]
-    arg [-L/usr/lib64/../lib64] ==> dir [/usr/lib64/../lib64]
-    arg [-L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
-    arg [-L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/data/opt/lib] ==> dir [/data/opt/lib]
-    arg [-L/data/opt/brew/lib] ==> dir [/data/opt/brew/lib]
-    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
-    arg [-L/lib64] ==> dir [/lib64]
-    arg [-L/usr/lib64] ==> dir [/usr/lib64]
-    arg [-L/data/sydeng/lib] ==> dir [/data/sydeng/lib]
-    arg [-L/data/sydeng/lib] ==> dir [/data/sydeng/lib]
-    arg [-L/data/opt/jdk1.8.0_60/jre/lib/amd64/server] ==> dir [/data/opt/jdk1.8.0_60/jre/lib/amd64/server]
-    arg [-L/data/opt/hadoop-2.6.0/lib/native] ==> dir [/data/opt/hadoop-2.6.0/lib/native]
-    arg [-L/data/opt/matlabr2016b//runtime/glnxa64] ==> dir [/data/opt/matlabr2016b//runtime/glnxa64]
-    arg [-L/data/opt/matlabr2016b//bin/glnxa64] ==> dir [/data/opt/matlabr2016b//bin/glnxa64]
-    arg [-L/data/opt/matlabr2016b//sys/os/glnxa64] ==> dir [/data/opt/matlabr2016b//sys/os/glnxa64]
-    arg [-L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..]
-    arg [-L/data/opt/brew/lib] ==> dir [/data/opt/brew/lib]
-    arg [CMakeFiles/cmTC_a9a89.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o] ==> ignore
-    arg [/data/opt/lib/../lib64/crtn.o] ==> ignore
-  collapse library dir [/data/opt/lib/../lib64] ==> [/data/opt/lib64]
-  collapse library dir [/usr/local/lib/../lib64] ==> [/usr/local/lib64]
-  collapse library dir [/lib64/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib64/../lib64] ==> [/usr/lib64]
-  collapse library dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
-  collapse library dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> [/data/opt/brew/Cellar/gcc/5.2.0/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/data/opt/lib] ==> [/data/opt/lib]
-  collapse library dir [/data/opt/brew/lib] ==> [/data/opt/brew/lib]
+    arg [cmTC_a09f9] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_a09f9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
   collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse library dir [/lib64] ==> [/lib64]
-  collapse library dir [/usr/lib64] ==> [/usr/lib64]
-  collapse library dir [/data/sydeng/lib] ==> [/data/sydeng/lib]
-  collapse library dir [/data/sydeng/lib] ==> [/data/sydeng/lib]
-  collapse library dir [/data/opt/jdk1.8.0_60/jre/lib/amd64/server] ==> [/data/opt/jdk1.8.0_60/jre/lib/amd64/server]
-  collapse library dir [/data/opt/hadoop-2.6.0/lib/native] ==> [/data/opt/hadoop-2.6.0/lib/native]
-  collapse library dir [/data/opt/matlabr2016b//runtime/glnxa64] ==> [/data/opt/matlabr2016b/runtime/glnxa64]
-  collapse library dir [/data/opt/matlabr2016b//bin/glnxa64] ==> [/data/opt/matlabr2016b/bin/glnxa64]
-  collapse library dir [/data/opt/matlabr2016b//sys/os/glnxa64] ==> [/data/opt/matlabr2016b/sys/os/glnxa64]
-  collapse library dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> [/data/opt/brew/Cellar/gcc/5.2.0/lib]
-  collapse library dir [/data/opt/brew/lib] ==> [/data/opt/brew/lib]
-  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/data/opt/lib64;/usr/local/lib64;/lib64;/usr/lib64;/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0;/data/opt/brew/Cellar/gcc/5.2.0/lib64;/data/opt/lib;/data/opt/brew/lib;/usr/local/lib;/data/sydeng/lib;/data/opt/jdk1.8.0_60/jre/lib/amd64/server;/data/opt/hadoop-2.6.0/lib/native;/data/opt/matlabr2016b/runtime/glnxa64;/data/opt/matlabr2016b/bin/glnxa64;/data/opt/matlabr2016b/sys/os/glnxa64;/data/opt/brew/Cellar/gcc/5.2.0/lib]
-  implicit fwks: []
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_47deb/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_47deb.dir/build.make CMakeFiles/cmTC_47deb.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_47deb.dir/flags.make' has modification time 18 s in the future
-Building C object CMakeFiles/cmTC_47deb.dir/feature_tests.c.o
-/data/opt/brew/bin/cc   -std=c11 -o CMakeFiles/cmTC_47deb.dir/feature_tests.c.o   -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_47deb
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47deb.dir/link.txt --verbose=1
-/data/opt/brew/bin/cc      -rdynamic CMakeFiles/cmTC_47deb.dir/feature_tests.c.o  -o cmTC_47deb 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_611a7/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_611a7.dir/build.make CMakeFiles/cmTC_611a7.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_611a7.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_611a7.dir/feature_tests.c.o   -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_611a7
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_611a7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_611a7.dir/feature_tests.c.o  -o cmTC_611a7 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -199,21 +191,19 @@ gmake: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c63e7/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_c63e7.dir/build.make CMakeFiles/cmTC_c63e7.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_c63e7.dir/flags.make' has modification time 18 s in the future
-Building C object CMakeFiles/cmTC_c63e7.dir/feature_tests.c.o
-/data/opt/brew/bin/cc   -std=c99 -o CMakeFiles/cmTC_c63e7.dir/feature_tests.c.o   -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c63e7
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c63e7.dir/link.txt --verbose=1
-/data/opt/brew/bin/cc      -rdynamic CMakeFiles/cmTC_c63e7.dir/feature_tests.c.o  -o cmTC_c63e7 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_47577/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_47577.dir/build.make CMakeFiles/cmTC_47577.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47577.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_47577.dir/feature_tests.c.o   -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_47577
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47577.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_47577.dir/feature_tests.c.o  -o cmTC_47577 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -223,21 +213,19 @@ gmake: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b3d86/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_b3d86.dir/build.make CMakeFiles/cmTC_b3d86.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_b3d86.dir/flags.make' has modification time 18 s in the future
-Building C object CMakeFiles/cmTC_b3d86.dir/feature_tests.c.o
-/data/opt/brew/bin/cc   -std=c90 -o CMakeFiles/cmTC_b3d86.dir/feature_tests.c.o   -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b3d86
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d86.dir/link.txt --verbose=1
-/data/opt/brew/bin/cc      -rdynamic CMakeFiles/cmTC_b3d86.dir/feature_tests.c.o  -o cmTC_b3d86 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_9bffb/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_9bffb.dir/build.make CMakeFiles/cmTC_9bffb.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bffb.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_9bffb.dir/feature_tests.c.o   -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9bffb
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bffb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9bffb.dir/feature_tests.c.o  -o cmTC_9bffb 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -245,168 +233,169 @@ gmake: warning:  Clock skew detected.  Your build may be incomplete.
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_92e45/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_92e45.dir/build.make CMakeFiles/cmTC_92e45.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_92e45.dir/flags.make' has modification time 18 s in the future
-Building CXX object CMakeFiles/cmTC_92e45.dir/testCXXCompiler.cxx.o
-/data/opt/brew/bin/c++     -o CMakeFiles/cmTC_92e45.dir/testCXXCompiler.cxx.o -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_92e45
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92e45.dir/link.txt --verbose=1
-/data/opt/brew/bin/c++       -rdynamic CMakeFiles/cmTC_92e45.dir/testCXXCompiler.cxx.o  -o cmTC_92e45 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_c3057/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_c3057.dir/build.make CMakeFiles/cmTC_c3057.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3057.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_c3057.dir/testCXXCompiler.cxx.o -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c3057
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3057.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3057.dir/testCXXCompiler.cxx.o  -o cmTC_c3057 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d8565/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_d8565.dir/build.make CMakeFiles/cmTC_d8565.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_d8565.dir/flags.make' has modification time 18 s in the future
-Building CXX object CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o
-/data/opt/brew/bin/c++     -o CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o -c /data/opt/brew/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_d8565
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8565.dir/link.txt --verbose=1
-/data/opt/brew/bin/c++      -v -rdynamic CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d8565 
-Reading specs from /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/specs
-COLLECT_GCC=/data/opt/brew/bin/c++
-COLLECT_LTO_WRAPPER=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper
-Target: x86_64-unknown-linux-gnu
-Configured with: ../configure --prefix=/data/opt/brew/Cellar/gcc/5.2.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/data/opt/brew/opt/gmp --with-mpfr=/data/opt/brew/opt/mpfr --with-mpc=/data/opt/brew/opt/libmpc --with-isl=/data/opt/brew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.2.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib
+Run Build Command(s):/usr/local/bin/gmake cmTC_ff016/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_ff016.dir/build.make CMakeFiles/cmTC_ff016.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -v -Wl,-v -o CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
-gcc version 5.2.0 (Homebrew gcc 5.2.0) 
-COMPILER_PATH=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/
-LIBRARY_PATH=/data/opt/lib/../lib64/:/usr/local/lib/../lib64/:/lib64/../lib64/:/usr/lib64/../lib64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/opt/lib/:/data/opt/brew/lib/:/usr/local/lib/:/lib64/:/usr/lib64/:/data/sydeng/lib/:/data/sydeng/lib/:/data/opt/jdk1.8.0_60/jre/lib/amd64/server/:/data/opt/hadoop-2.6.0/lib/native/:/data/opt/matlabr2016b//runtime/glnxa64/:/data/opt/matlabr2016b//bin/glnxa64/:/data/opt/matlabr2016b//sys/os/glnxa64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d8565' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -rpath /data/opt/brew/lib -o cmTC_d8565 /data/opt/lib/../lib64/crt1.o /data/opt/lib/../lib64/crti.o /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/data/opt/lib/../lib64 -L/usr/local/lib/../lib64 -L/lib64/../lib64 -L/usr/lib64/../lib64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/opt/lib -L/data/opt/brew/lib -L/usr/local/lib -L/lib64 -L/usr/lib64 -L/data/sydeng/lib -L/data/sydeng/lib -L/data/opt/jdk1.8.0_60/jre/lib/amd64/server -L/data/opt/hadoop-2.6.0/lib/native -L/data/opt/matlabr2016b//runtime/glnxa64 -L/data/opt/matlabr2016b//bin/glnxa64 -L/data/opt/matlabr2016b//sys/os/glnxa64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. -L/data/opt/brew/lib CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /data/opt/lib/../lib64/crtn.o
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -stdlib=libc++ -fdeprecated-macro -fdebug-compilation-dir /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0
+ignoring nonexistent directory "/usr/include/c++/v1"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/include/c++/v1
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_ff016
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff016.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff016 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ff016 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+    add: [/usr/local/include]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/include/c++/v1;/usr/local/include;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include;/Library/Developer/CommandLineTools/usr/include;/usr/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d8565/fast"]
-  ignore line: [gmake: Warning: File `Makefile' has modification time 18 s in the future]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d8565.dir/build.make CMakeFiles/cmTC_d8565.dir/build]
-  ignore line: [gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp']
-  ignore line: [gmake[1]: Warning: File `CMakeFiles/cmTC_d8565.dir/flags.make' has modification time 18 s in the future]
-  ignore line: [Building CXX object CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/data/opt/brew/bin/c++     -o CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o -c /data/opt/brew/Cellar/cmake/3.10.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_d8565]
-  ignore line: [/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8565.dir/link.txt --verbose=1]
-  ignore line: [/data/opt/brew/bin/c++      -v -rdynamic CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d8565 ]
-  ignore line: [Reading specs from /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/specs]
-  ignore line: [COLLECT_GCC=/data/opt/brew/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/lto-wrapper]
-  ignore line: [Target: x86_64-unknown-linux-gnu]
-  ignore line: [Configured with: ../configure --prefix=/data/opt/brew/Cellar/gcc/5.2.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/data/opt/brew/opt/gmp --with-mpfr=/data/opt/brew/opt/mpfr --with-mpc=/data/opt/brew/opt/libmpc --with-isl=/data/opt/brew/opt/isl --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.2.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --enable-plugin --disable-nls --disable-multilib]
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_ff016/fast ]
+  ignore line: [gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_ff016.dir/build.make CMakeFiles/cmTC_ff016.dir/build]
+  ignore line: [gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -v -Wl,-v -o CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.2.0 (Homebrew gcc 5.2.0) ]
-  ignore line: [COMPILER_PATH=/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/data/opt/lib/../lib64/:/usr/local/lib/../lib64/:/lib64/../lib64/:/usr/lib64/../lib64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/data/opt/lib/:/data/opt/brew/lib/:/usr/local/lib/:/lib64/:/usr/lib64/:/data/sydeng/lib/:/data/sydeng/lib/:/data/opt/jdk1.8.0_60/jre/lib/amd64/server/:/data/opt/hadoop-2.6.0/lib/native/:/data/opt/matlabr2016b//runtime/glnxa64/:/data/opt/matlabr2016b//bin/glnxa64/:/data/opt/matlabr2016b//sys/os/glnxa64/:/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d8565' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -rpath /data/opt/brew/lib -o cmTC_d8565 /data/opt/lib/../lib64/crt1.o /data/opt/lib/../lib64/crti.o /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o -L/data/opt/lib/../lib64 -L/usr/local/lib/../lib64 -L/lib64/../lib64 -L/usr/lib64/../lib64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/data/opt/lib -L/data/opt/brew/lib -L/usr/local/lib -L/lib64 -L/usr/lib64 -L/data/sydeng/lib -L/data/sydeng/lib -L/data/opt/jdk1.8.0_60/jre/lib/amd64/server -L/data/opt/hadoop-2.6.0/lib/native -L/data/opt/matlabr2016b//runtime/glnxa64 -L/data/opt/matlabr2016b//bin/glnxa64 -L/data/opt/matlabr2016b//sys/os/glnxa64 -L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../.. -L/data/opt/brew/lib CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o /data/opt/lib/../lib64/crtn.o]
-    arg [/data/opt/brew/Cellar/gcc/5.2.0/libexec/gcc/x86_64-unknown-linux-gnu/5.2.0/collect2] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-rpath] ==> ignore
-    arg [/data/opt/brew/lib] ==> ignore
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -stdlib=libc++ -fdeprecated-macro -fdebug-compilation-dir /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.14.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0]
+  ignore line: [ignoring nonexistent directory "/usr/include/c++/v1"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include/c++/v1]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [ /System/Library/Frameworks (framework directory)]
+  ignore line: [ /Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_ff016]
+  ignore line: [/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff016.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff016 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_ff016 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d8565] ==> ignore
-    arg [/data/opt/lib/../lib64/crt1.o] ==> ignore
-    arg [/data/opt/lib/../lib64/crti.o] ==> ignore
-    arg [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtbegin.o] ==> ignore
-    arg [-L/data/opt/lib/../lib64] ==> dir [/data/opt/lib/../lib64]
-    arg [-L/usr/local/lib/../lib64] ==> dir [/usr/local/lib/../lib64]
-    arg [-L/lib64/../lib64] ==> dir [/lib64/../lib64]
-    arg [-L/usr/lib64/../lib64] ==> dir [/usr/lib64/../lib64]
-    arg [-L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
-    arg [-L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/data/opt/lib] ==> dir [/data/opt/lib]
-    arg [-L/data/opt/brew/lib] ==> dir [/data/opt/brew/lib]
-    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
-    arg [-L/lib64] ==> dir [/lib64]
-    arg [-L/usr/lib64] ==> dir [/usr/lib64]
-    arg [-L/data/sydeng/lib] ==> dir [/data/sydeng/lib]
-    arg [-L/data/sydeng/lib] ==> dir [/data/sydeng/lib]
-    arg [-L/data/opt/jdk1.8.0_60/jre/lib/amd64/server] ==> dir [/data/opt/jdk1.8.0_60/jre/lib/amd64/server]
-    arg [-L/data/opt/hadoop-2.6.0/lib/native] ==> dir [/data/opt/hadoop-2.6.0/lib/native]
-    arg [-L/data/opt/matlabr2016b//runtime/glnxa64] ==> dir [/data/opt/matlabr2016b//runtime/glnxa64]
-    arg [-L/data/opt/matlabr2016b//bin/glnxa64] ==> dir [/data/opt/matlabr2016b//bin/glnxa64]
-    arg [-L/data/opt/matlabr2016b//sys/os/glnxa64] ==> dir [/data/opt/matlabr2016b//sys/os/glnxa64]
-    arg [-L/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..]
-    arg [-L/data/opt/brew/lib] ==> dir [/data/opt/brew/lib]
-    arg [CMakeFiles/cmTC_d8565.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/crtend.o] ==> ignore
-    arg [/data/opt/lib/../lib64/crtn.o] ==> ignore
-  collapse library dir [/data/opt/lib/../lib64] ==> [/data/opt/lib64]
-  collapse library dir [/usr/local/lib/../lib64] ==> [/usr/local/lib64]
-  collapse library dir [/lib64/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib64/../lib64] ==> [/usr/lib64]
-  collapse library dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0] ==> [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0]
-  collapse library dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../../../lib64] ==> [/data/opt/brew/Cellar/gcc/5.2.0/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/data/opt/lib] ==> [/data/opt/lib]
-  collapse library dir [/data/opt/brew/lib] ==> [/data/opt/brew/lib]
+    arg [cmTC_ff016] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ff016.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
   collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse library dir [/lib64] ==> [/lib64]
-  collapse library dir [/usr/lib64] ==> [/usr/lib64]
-  collapse library dir [/data/sydeng/lib] ==> [/data/sydeng/lib]
-  collapse library dir [/data/sydeng/lib] ==> [/data/sydeng/lib]
-  collapse library dir [/data/opt/jdk1.8.0_60/jre/lib/amd64/server] ==> [/data/opt/jdk1.8.0_60/jre/lib/amd64/server]
-  collapse library dir [/data/opt/hadoop-2.6.0/lib/native] ==> [/data/opt/hadoop-2.6.0/lib/native]
-  collapse library dir [/data/opt/matlabr2016b//runtime/glnxa64] ==> [/data/opt/matlabr2016b/runtime/glnxa64]
-  collapse library dir [/data/opt/matlabr2016b//bin/glnxa64] ==> [/data/opt/matlabr2016b/bin/glnxa64]
-  collapse library dir [/data/opt/matlabr2016b//sys/os/glnxa64] ==> [/data/opt/matlabr2016b/sys/os/glnxa64]
-  collapse library dir [/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/../../..] ==> [/data/opt/brew/Cellar/gcc/5.2.0/lib]
-  collapse library dir [/data/opt/brew/lib] ==> [/data/opt/brew/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/data/opt/lib64;/usr/local/lib64;/lib64;/usr/lib64;/data/opt/brew/Cellar/gcc/5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0;/data/opt/brew/Cellar/gcc/5.2.0/lib64;/data/opt/lib;/data/opt/brew/lib;/usr/local/lib;/data/sydeng/lib;/data/opt/jdk1.8.0_60/jre/lib/amd64/server;/data/opt/hadoop-2.6.0/lib/native;/data/opt/matlabr2016b/runtime/glnxa64;/data/opt/matlabr2016b/bin/glnxa64;/data/opt/matlabr2016b/sys/os/glnxa64;/data/opt/brew/Cellar/gcc/5.2.0/lib]
-  implicit fwks: []
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
 
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_bf85d/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_bf85d.dir/build.make CMakeFiles/cmTC_bf85d.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_bf85d.dir/flags.make' has modification time 18 s in the future
-Building CXX object CMakeFiles/cmTC_bf85d.dir/feature_tests.cxx.o
-/data/opt/brew/bin/c++    -std=c++1z -o CMakeFiles/cmTC_bf85d.dir/feature_tests.cxx.o -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bf85d
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf85d.dir/link.txt --verbose=1
-/data/opt/brew/bin/c++       -rdynamic CMakeFiles/cmTC_bf85d.dir/feature_tests.cxx.o  -o cmTC_bf85d 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_a8f05/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_a8f05.dir/build.make CMakeFiles/cmTC_a8f05.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8f05.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_a8f05.dir/feature_tests.cxx.o -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a8f05
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8f05.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8f05.dir/feature_tests.cxx.o  -o cmTC_a8f05 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -469,21 +458,19 @@ gmake: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_abf58/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_abf58.dir/build.make CMakeFiles/cmTC_abf58.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_abf58.dir/flags.make' has modification time 18 s in the future
-Building CXX object CMakeFiles/cmTC_abf58.dir/feature_tests.cxx.o
-/data/opt/brew/bin/c++    -std=c++14 -o CMakeFiles/cmTC_abf58.dir/feature_tests.cxx.o -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_abf58
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abf58.dir/link.txt --verbose=1
-/data/opt/brew/bin/c++       -rdynamic CMakeFiles/cmTC_abf58.dir/feature_tests.cxx.o  -o cmTC_abf58 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_c615e/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_c615e.dir/build.make CMakeFiles/cmTC_c615e.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c615e.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c615e.dir/feature_tests.cxx.o -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c615e
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c615e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c615e.dir/feature_tests.cxx.o  -o cmTC_c615e 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -546,21 +533,19 @@ gmake: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_55c49/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_55c49.dir/build.make CMakeFiles/cmTC_55c49.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_55c49.dir/flags.make' has modification time 18 s in the future
-Building CXX object CMakeFiles/cmTC_55c49.dir/feature_tests.cxx.o
-/data/opt/brew/bin/c++    -std=c++11 -o CMakeFiles/cmTC_55c49.dir/feature_tests.cxx.o -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_55c49
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55c49.dir/link.txt --verbose=1
-/data/opt/brew/bin/c++       -rdynamic CMakeFiles/cmTC_55c49.dir/feature_tests.cxx.o  -o cmTC_55c49 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_48b6e/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_48b6e.dir/build.make CMakeFiles/cmTC_48b6e.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48b6e.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_48b6e.dir/feature_tests.cxx.o -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_48b6e
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48b6e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48b6e.dir/feature_tests.cxx.o  -o cmTC_48b6e 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -623,21 +608,19 @@ gmake: warning:  Clock skew detected.  Your build may be incomplete.
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ef6b5/fast"
-gmake: Warning: File `Makefile' has modification time 18 s in the future
-/usr/bin/gmake -f CMakeFiles/cmTC_ef6b5.dir/build.make CMakeFiles/cmTC_ef6b5.dir/build
-gmake[1]: Entering directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake[1]: Warning: File `CMakeFiles/cmTC_ef6b5.dir/flags.make' has modification time 18 s in the future
-Building CXX object CMakeFiles/cmTC_ef6b5.dir/feature_tests.cxx.o
-/data/opt/brew/bin/c++    -std=c++98 -o CMakeFiles/cmTC_ef6b5.dir/feature_tests.cxx.o -c /data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ef6b5
-/data/opt/brew/Cellar/cmake/3.10.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6b5.dir/link.txt --verbose=1
-/data/opt/brew/bin/c++       -rdynamic CMakeFiles/cmTC_ef6b5.dir/feature_tests.cxx.o  -o cmTC_ef6b5 
-gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-gmake[1]: Leaving directory `/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/CMakeTmp'
-gmake: warning:  Clock skew detected.  Your build may be incomplete.
+Run Build Command(s):/usr/local/bin/gmake cmTC_9f047/fast 
+gmake[1]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/gmake -f CMakeFiles/cmTC_9f047.dir/build.make CMakeFiles/cmTC_9f047.dir/build
+gmake[2]: Entering directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f047.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_9f047.dir/feature_tests.cxx.o -c /Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9f047
+/usr/local/Cellar/cmake/3.14.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f047.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9f047.dir/feature_tests.cxx.o  -o cmTC_9f047 
+gmake[2]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

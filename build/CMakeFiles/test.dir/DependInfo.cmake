@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/data/sydeng/repositary/phd_repo/new/D_lib/apps/test.cpp" "/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/test.dir/apps/test.cpp.o"
+  "/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/apps/test.cpp" "/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/test.dir/apps/test.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

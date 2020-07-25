@@ -6,5 +6,5 @@ CXX_FLAGS =  -O3 -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/D_lib/./core 
+CXX_INCLUDES = -I/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/./core 
 

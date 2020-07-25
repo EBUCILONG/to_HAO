@@ -11,6 +11,8 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <map>
+#include <utility>
 #include <algorithm>
 
 
@@ -21,8 +23,9 @@ int main(){
     vector<int> inputs;
     AvlTree<int> T;
     set<int> S;
+    map<int, int> M;
 
-    for(int i = 0; i < 5000000; i++){
+    for(int i = 0; i < 3000000; i++){
         inputs.push_back(i);
     }
 
@@ -34,8 +37,9 @@ int main(){
 //    T.ShowTree();
 
     startTime = clock();
-    for(int i = 0; i < 5000000; i++){
-        S.insert(inputs[i]);
+    for(int i = 0; i < 3000000; i++){
+//        S.insert(inputs[i]);
+        M.insert(pair<int, int>(inputs[i], inputs[i]));
     }
     endTime = clock();
 

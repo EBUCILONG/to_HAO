@@ -1,1 +1,1 @@
-/data/opt/brew/bin/c++   -O3  -rdynamic CMakeFiles/test_R.dir/apps/test_R.cpp.o  -o test_R 
+/Library/Developer/CommandLineTools/usr/bin/c++   -O3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_R.dir/apps/test_R.cpp.o  -o test_R 

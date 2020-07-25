@@ -1,4 +1,4 @@
-/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/rebuild_cache.dir
-/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/edit_cache.dir
-/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/test_R.dir
-/data/sydeng/repositary/phd_repo/new/D_lib/build/CMakeFiles/test.dir
+/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/rebuild_cache.dir
+/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/edit_cache.dir
+/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/test_R.dir
+/Users/oruqimaru/Desktop/PHD/CPP_item/past_version/to_HAO/build/CMakeFiles/test.dir

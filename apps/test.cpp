@@ -18,7 +18,7 @@ int main(){
     AvlTree<int> T;
     set<int> S;
 
-    for(int i = 0; i < 5000000; i++){
+    for(int i = 0; i < 3000000; i++){
         inputs.push_back(i);
     }
 
@@ -38,13 +38,21 @@ int main(){
 //    cout << "R Totle Time : " <<(double)(endTime - startTime) / CLOCKS_PER_SEC << "s" << endl;
 
     startTime = clock();
-    for(int i = 0; i < 5000000; i++){
+    for(int i = 0; i < 3000000; i++){
         T.Insert(inputs[i]);
 
 //        T.ShowTree();
 //        cout << endl;
     }
     endTime = clock();
+
+//    for(int i = 0; i < 5000000; i++){
+//        int result = T.Query(inputs[i]);
+//        if(result != inputs[i])
+//            cout << "input: " << inputs[i] << "answer: " << result << endl;
+////        T.ShowTree();
+////        cout << endl;
+//    }
 
 //    int ** path_height_L = (int**) malloc(sizeof(int*) * 50);
 //    int ** path_height_R = (int**) malloc(sizeof(int*) * 50);
@@ -56,9 +64,9 @@ int main(){
 
 
     cout << "T Totle Time : " <<(endTime - startTime) *1.0 / CLOCKS_PER_SEC << "s" << endl;
-    cout << "T Trace Time : " <<(double)T.trace_time / CLOCKS_PER_SEC << "s" << endl;
+//    cout << "T Trace Time : " <<(double)T.trace_time / CLOCKS_PER_SEC << "s" << endl;
 //    cout << "Tree Height: " << T.GetHeight() << endl;
-    cout << "repair time: " << T.repair_time << endl;
+//    cout << "repair time: " << T.repair_time << endl;
 
     return 0;
 }

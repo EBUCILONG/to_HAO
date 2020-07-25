@@ -11,20 +11,12 @@ public:
     BinaryNode(T value):_value(value),_parent(NULL),_left_child(NULL),_right_child(NULL){
     }
 
-    void SetValue(T key){
-        _value = key;
-    }
-
     void SetLeft(NodeT* node){
         _left_child = node;
     }
 
     void SetRight(NodeT* node){
         _right_child = node;
-    }
-
-    void SetParent(NodeT* node){
-        _parent = node;
     }
 
     T GetValue() const{
@@ -43,23 +35,7 @@ public:
         return _parent;
     }
 
-    bool operator>(const BinaryNode& b){
-        return _value > b.GetValue();
-    }
-
-    bool operator<(const BinaryNode& b){
-        return _value < b.GetValue();
-    }
-
-    bool operator>=(const BinaryNode& b){
-        return _value >= b.GetValue();
-    }
-
-    bool operator<=(const BinaryNode& b){
-        return _value <= b.GetValue();
-    }
-
-//protected:
+protected:
     T _value;
 //private:
     NodeT *_parent;

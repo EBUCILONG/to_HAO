@@ -19,9 +19,6 @@ public:
 #define right_navi 1
 #define left_navi 0
 
-    AvlNode<T>** _updater;
-    int* _navigator;
-
     //Main code
     AvlTree(){
         BinaryTree<AvlNode<T> >();
@@ -114,7 +111,7 @@ public:
         }
     }
 
-protected:
+private:
     /*
      * Only handle when root is not null. Insert the new key and reture
      * the length of the trace path
@@ -339,6 +336,7 @@ protected:
         }
     }
 
+    AvlNode<T>** _updater;
+    int* _navigator;
 
-private:
 };

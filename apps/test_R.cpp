@@ -18,14 +18,15 @@
 
 using namespace std;
 
-int main(){
+int main(int argc, char *argv[]){
+
+    int test_scale = stoi(argv[1]);
 
     vector<int> inputs;
     AvlTree<int> T;
-    set<int> S;
     map<int, int> M;
 
-    for(int i = 0; i < 3000000; i++){
+    for(int i = 0; i < test_scale; i++){
         inputs.push_back(i);
     }
 
@@ -33,37 +34,13 @@ int main(){
 
     clock_t startTime,endTime;
 
-
-//    T.ShowTree();
-
     startTime = clock();
-    for(int i = 0; i < 3000000; i++){
-//        S.insert(inputs[i]);
+    for(int i = 0; i < test_scale; i++){
         M.insert(pair<int, int>(inputs[i], inputs[i]));
     }
     endTime = clock();
 
     cout << "R Totle Time : " <<(endTime - startTime) * 1.0 / CLOCKS_PER_SEC << "s" << endl;
-
-//    startTime = clock();
-//    for(int i = 0; i < 100; i++){
-//        T.Insert(inputs[i]);
-//    }
-//    endTime = clock();
-//
-////    int ** path_height_L = (int**) malloc(sizeof(int*) * 50);
-////    int ** path_height_R = (int**) malloc(sizeof(int*) * 50);
-////
-////    for(int i = 0; i < 10; i++){
-////        path_height_L[i]=i+1;
-////        path_height_R[i]=i+2;
-////    }
-//
-//
-//    cout << "T Totle Time : " <<(double)(endTime - startTime) / CLOCKS_PER_SEC << "s" << endl;
-//    cout << "T Trace Time : " <<(double)T.trace_time / CLOCKS_PER_SEC << "s" << endl;
-//    cout << "Tree Height: " << T.GetHeight() << endl;
-//    cout << "repair time: " << T.repair_time << endl;
 
     return 0;
 }

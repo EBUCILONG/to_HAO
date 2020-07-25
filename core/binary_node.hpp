@@ -35,7 +35,7 @@ public:
         return _parent;
     }
 
-protected:
+//protected:
     T _value;
 //private:
     NodeT *_parent;

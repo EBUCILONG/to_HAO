@@ -7,18 +7,21 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <map>
 #include <algorithm>
 
 
 using namespace std;
 
-int main(){
+int main(int argc, char *argv[]){
+
+    int test_scale = stoi(argv[1]);
 
     vector<int> inputs;
     AvlTree<int> T;
-    set<int> S;
+    map<int, int> M;
 
-    for(int i = 0; i < 3000000; i++){
+    for(int i = 0; i < test_scale; i++){
         inputs.push_back(i);
     }
 
@@ -26,47 +29,19 @@ int main(){
 
     clock_t startTime,endTime;
 
-
-//    T.ShowTree();
-//
-//    startTime = clock();
-//    for(int i = 0; i < 100; i++){
-//        S.insert(inputs[i]);
-//    }
-//    endTime = clock();
-//
-//    cout << "R Totle Time : " <<(double)(endTime - startTime) / CLOCKS_PER_SEC << "s" << endl;
-
     startTime = clock();
-    for(int i = 0; i < 3000000; i++){
+    for(int i = 0; i < test_scale; i++){
         T.Insert(inputs[i]);
-
-//        T.ShowTree();
-//        cout << endl;
     }
     endTime = clock();
+    cout << "My Avl Tree Use: " <<(endTime - startTime) *1.0 / CLOCKS_PER_SEC << "s" << endl;
 
-//    for(int i = 0; i < 5000000; i++){
-//        int result = T.Query(inputs[i]);
-//        if(result != inputs[i])
-//            cout << "input: " << inputs[i] << "answer: " << result << endl;
-////        T.ShowTree();
-////        cout << endl;
-//    }
-
-//    int ** path_height_L = (int**) malloc(sizeof(int*) * 50);
-//    int ** path_height_R = (int**) malloc(sizeof(int*) * 50);
-//
-//    for(int i = 0; i < 10; i++){
-//        path_height_L[i]=i+1;
-//        path_height_R[i]=i+2;
-//    }
-
-
-    cout << "T Totle Time : " <<(endTime - startTime) *1.0 / CLOCKS_PER_SEC << "s" << endl;
-//    cout << "T Trace Time : " <<(double)T.trace_time / CLOCKS_PER_SEC << "s" << endl;
-//    cout << "Tree Height: " << T.GetHeight() << endl;
-//    cout << "repair time: " << T.repair_time << endl;
+    startTime = clock();
+    for(int i = 0; i < test_scale; i++){
+        M.insert(pair<int, int>(inputs[i], inputs[i]));
+    }
+    endTime = clock();
+    cout << "STL Map Use: " <<(endTime - startTime) *1.0 / CLOCKS_PER_SEC << "s" << endl;
 
     return 0;
 }

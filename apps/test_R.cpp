@@ -8,6 +8,7 @@
 
 #include "avl_tree.hpp"
 #include <iostream>
+#include <cstring>
 #include <string>
 #include <vector>
 #include <set>
@@ -20,7 +21,7 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 
-    int test_scale = stoi(argv[1]);
+    int test_scale = atoi(argv[1]);
 
     vector<int> inputs;
     AvlTree<int> T;

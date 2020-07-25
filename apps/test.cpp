@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <cstring>
 #include <set>
 #include <map>
 #include <algorithm>
@@ -15,11 +16,11 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 
-    int test_scale = stoi(argv[1]);
+    int test_scale = atoi(argv[1]);
 
     vector<int> inputs;
     AvlTree<int> T;
-    map<int, int> M;
+//    map<int, int> M;
 
     for(int i = 0; i < test_scale; i++){
         inputs.push_back(i);
@@ -36,12 +37,12 @@ int main(int argc, char *argv[]){
     endTime = clock();
     cout << "My Avl Tree Use: " <<(endTime - startTime) *1.0 / CLOCKS_PER_SEC << "s" << endl;
 
-    startTime = clock();
-    for(int i = 0; i < test_scale; i++){
-        M.insert(pair<int, int>(inputs[i], inputs[i]));
-    }
-    endTime = clock();
-    cout << "STL Map Use: " <<(endTime - startTime) *1.0 / CLOCKS_PER_SEC << "s" << endl;
+ //   startTime = clock();
+ //   for(int i = 0; i < test_scale; i++){
+ //       M.insert(pair<int, int>(inputs[i], inputs[i]));
+ //   }
+ //   endTime = clock();
+ //   cout << "STL Map Use: " <<(endTime - startTime) *1.0 / CLOCKS_PER_SEC << "s" << endl;
 
     return 0;
 }
